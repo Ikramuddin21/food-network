@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* nav area */
+nav img {
+    width: 11%;
+    cursor: pointer;
+    padding-right: 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+/* top area */
+.top-area {
+    height: 700px;
+}
+
+/* common css */
+h1 {
+    font-size: 70px;
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: gray;
+}
+
+.text-highlight {
+    color: orangered;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+
+.text-area {
+    padding-top: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(270deg, orangered 40%, orange);
+    padding: 25px 45px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 25px #ff44005e;
+    
+}
+
+/* about area */
+.about-area img {
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
+
+.about-area {
+    height: 600px;
+    padding-top: 100px;
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+/* recipie area */
+.recipie-area {
+    text-align: center;
+}
+
+.recipie-item img {
+    width: 100%;
+
+}
+
+.recipies {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.recipie-item {
+    width: 330px;
+    box-shadow: 5px 5px 30px lightgray;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.recipie-item:hover {
+    box-shadow: 5px 5px 40px lightgray;
+}
+
+/* subscribtion area */
+.subscribtion-area {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 40px 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px lightgray;
+}
+
+.subscribtion-area h2 {
+    line-height: 20px;
+}
+
+/* footer area */
+footer {
+    text-align: center;
+    background-color: black;
+    margin-top: 120px;
+    padding: 50px 0;
+}
+
+footer h3 {
+    color: gray;
+}
